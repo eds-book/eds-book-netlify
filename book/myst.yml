@@ -22,8 +22,6 @@ project:
   plugins:
     - type: executable
       path: ../src/gallery.py
-    - type: executable
-      path: ../src/gallery_mini.py
   toc:
     - file: index.md
     - file: about.md
