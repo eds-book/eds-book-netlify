@@ -4,11 +4,11 @@
   environment = { PYTHON_VERSION = "3.13" }
   publish = "_build/html"
 
-[[redirects]]
-  from = "/*"
-  to = "https://95199651-9e81-4cae-a3a7-66398a9a5f62.netlify.app/:splat"
-  status = 200
-  force = false
+# [[redirects]]
+#   from = "/*"
+#   to = "https://eds-book.netlify.app/95199651-9e81-4cae-a3a7-66398a9a5f62/:splat"
+#   status = 200
+#   force = false
 
 #[[redirects]]
 #  from = "/95199651-9e81-4cae-a3a7-66398a9a5f62/*"
