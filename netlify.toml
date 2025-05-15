@@ -16,11 +16,11 @@
   status = 200
   force = false
 
-[[redirects]]
-  from = "/build/*"
-  to = "https://39d9c177-11da-41b2-9b64-63f4c1c834b3.netlify.app/build/:splat"
-  status = 200
-  force = false
+#[[redirects]]
+#  from = "/build/*"
+#  to = "https://39d9c177-11da-41b2-9b64-63f4c1c834b3.netlify.app/build/:splat"
+#  status = 200
+#  force = false
 
 [[redirects]]
   from = "/gallery/39d9c177-11da-41b2-9b64-63f4c1c834b3/*"
@@ -28,11 +28,11 @@
   status = 200
   force = false
 
-[[redirects]]
-  from = "/build/*"
-  to = "https://ea34568e-d86e-4720-be2f-3f826f66a26c.netlify.app/build/:splat"
-  status = 200
-  force = false
+#[[redirects]]
+#  from = "/build/*"
+#  to = "https://ea34568e-d86e-4720-be2f-3f826f66a26c.netlify.app/build/:splat"
+#  status = 200
+#  force = false
 
 [[redirects]]
   from = "/gallery/ea34568e-d86e-4720-be2f-3f826f66a26c/*"
