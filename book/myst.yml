@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
-#extends:
-#  - https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook.yml
+extends:
+  - https://raw.githubusercontent.com/eds-book/edsbook-config-netlify/main/edsbook.yml
 project:
   id: 5045e1d4-2bbc-4dca-bde5-447c5c23801d
   title: Welcome
@@ -47,9 +47,9 @@ site:
   template: book-theme
   options:
       folders: true
-      favicon: https://raw.githubusercontent.com/eds-book/edsbook-config/main/favicon.ico
-      logo: https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook_logo-black.png
-      logo_dark: https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook_logo-white.png
+#      favicon: https://raw.githubusercontent.com/eds-book/edsbook-config/main/favicon.ico
+#      logo: https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook_logo-black.png
+#      logo_dark: https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook_logo-white.png
       style: style/style.css
   nav:
     - title: About
